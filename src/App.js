@@ -1,9 +1,10 @@
 import React from "react";
 import Products from './components/Products.jsx'
+import {ChakraProvider} from '@chakra-ui/react'
 const App = () => {
-  return <div>
+  return <ChakraProvider>
     <Products />
-    </div>;
+    </ChakraProvider>;
 };
 
 export default App;
